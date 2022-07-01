@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>task_for_pid-allow</key>
+	<true/>
+	<key>com.apple.private.allow-explicit-graphics-priority</key>
+	<true/>
+	<key>com.apple.private.usbdevice.setdescription</key>
+	<true/>
+	<key>com.apple.private.diskimages.kext.user-client-access</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>com.apple.private.iowatchdog.user-access</key>
+	<true/>
+	<key>com.apple.private.apfs.revert-to-snapshot</key>
+	<true/>
+	<key>com.apple.private.security.disk-device-access</key>
+	<true/>
+	<key>com.apple.private.vfs.snapshot</key>
+	<true/>
+	<key>com.apple.lsapplicationworkspace.rebuildappdatabases</key>
+	<true/>
+    <key>com.apple.security.iokit-user-client-class</key>
+    <array>
+            <string>IOHDIXControllerUserClient</string>
+    </array>
+    <key>com.apple.springboard.CFUserNotification</key>
+    <true/>
+</dict>
+</plist>
